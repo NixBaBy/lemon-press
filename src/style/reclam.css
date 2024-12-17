@@ -1,0 +1,23 @@
+.reclam-img img {
+  width: 100%;
+}
+.ps {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.lemonade {
+  background-color: yellow;
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.p {
+  font-weight: 800;
+}

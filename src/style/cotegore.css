@@ -1,0 +1,40 @@
+.name-line {
+  margin: 10px 20px;
+  flex: 1 1;
+  height: 1px;
+  background-image: linear-gradient(90deg, #a3a3a3 33%, hsla(0, 0%, 100%, 0) 0);
+  background-position: bottom;
+  background-size: 3px 1px;
+  background-repeat: repeat-x;
+}
+.post-item {
+  margin-top: 40px;
+}
+.post-img {
+  width: 380px;
+  height: 205px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+.post-img img {
+  width: 100%;
+  height: 100%;
+}
+.post-imf {
+  width: 380px;
+  border: 1px solid rgba(128, 128, 128, 0.212);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tittle {
+  color: blue;
+}
+h2 {
+  font-size: 18px;
+}
