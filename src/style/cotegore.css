@@ -11,8 +11,8 @@
   margin-top: 40px;
 }
 .post-img {
-  width: 380px;
-  height: 205px;
+  width: 430px;
+  height: 255px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
@@ -22,7 +22,8 @@
   height: 100%;
 }
 .post-imf {
-  width: 380px;
+  width: 430px;
+  height: 125px;
   border: 1px solid rgba(128, 128, 128, 0.212);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -37,4 +38,22 @@
 }
 h2 {
   font-size: 18px;
+}
+.allPosts {
+  display: flex;
+  flex-direction: column;
+}
+.bussines {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.news {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 50px;
+}
+.economy {
+  display: flex;
+  gap: 50px;
 }

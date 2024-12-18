@@ -29,19 +29,49 @@ const news = [
     date: "12 сарын 16, 2024",
   },
 ];
+const news1 = [
+  {
+    img: "https://dash-api.yld.mn/api/image/497388e5-c62f-4ebd-b64a-f1221f95def7",
+    tittle: "Зах зээл",
+    h2: "Япон Nasdaq-д хөл тавилаа",
+    name: "С.Ангирмаа/",
+    date: "12 сарын 16, 2024",
+  },
+  {
+    img: "https://dash-api.yld.mn/api/image/158e4cc9-11bf-4d8e-9e6b-dd6930ef8992",
+    tittle: "Mining 101",
+    h2: "Уул уурхайн салбарт карьераа өсгөх боломж",
+    name: "С.Ангирмаа /",
+    date: "12 сарын 16, 2024",
+  },
+  {
+    img: "https://dash-api.yld.mn/api/image/e00ad5b2-7618-4c71-9121-e1c12180184a",
+    tittle: "Сурталчилгаа",
+    h2: "Монгол бартендер дэлхийд өрсөлдлөө",
+    name: "Б. Эмүжин /",
+    date: "12 сарын 16, 2024",
+  },
+  {
+    img: "https://dash-api.yld.mn/api/image/b28955f5-0a7c-4c14-829f-8c85e14e18c0",
+    tittle: "Interviewг",
+    h2: "Уран AI: Монголын Анхны интерьер болон экстерьер дизайны AI",
+    name: "М.Хулан /",
+    date: "12 сарын 13, 2024",
+  },
+];
 
-const News = (props) => {
+const News = (medee) => {
   return (
     <div className="medee">
       <div className="medee-img">
-        <img src={props.img} alt="" />
+        <img src={medee.img} alt="" />
       </div>
       <div className="imf">
-        <p className="tittle">{props.tittle}</p>
-        <h2>{props.h2}</h2>
+        <p className="tittle">{medee.tittle}</p>
+        <h2>{medee.h2}</h2>
         <div className="name">
-          <p>{props.name}</p>
-          <p>{props.date}</p>
+          <p>{medee.name}</p>
+          <p>{medee.date}</p>
         </div>
       </div>
     </div>
@@ -50,9 +80,10 @@ const News = (props) => {
 const Neww = () => {
   return (
     <div className="new">
-      {news.map((medee) => {
+      {news.map((medee, index) => {
         return (
           <News
+            key={index}
             img={medee.img}
             h2={medee.h2}
             tittle={medee.tittle}
@@ -65,4 +96,4 @@ const Neww = () => {
   );
 };
 
-export default News;
+export default Neww;
