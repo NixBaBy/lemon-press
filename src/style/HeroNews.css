@@ -1,0 +1,15 @@
+.heroNews {
+  margin-top: 30px;
+}
+.hero-img {
+  width: 778px;
+}
+.hero-img img {
+  width: 100%;
+}
+.hero-imf {
+  width: 778px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}

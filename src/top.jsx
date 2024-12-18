@@ -5,6 +5,7 @@ import Reclam1 from "./components/Reclam1";
 import Neww from "./components/News";
 import Reclam2 from "./components/Reclam2";
 import Cotegore from "./components/Cotegore";
+import HeroNews from "./components/HeroNews";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Header1 />
       <div className="body">
         <Reclam1 />
+        <HeroNews />
         <div className="news">
           <Neww />
           <Reclam2 />
