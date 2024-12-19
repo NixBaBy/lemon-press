@@ -60,18 +60,18 @@ const news1 = [
   },
 ];
 
-const News = (medee) => {
+const News = (props) => {
   return (
     <div className="medee">
       <div className="medee-img">
-        <img src={medee.img} alt="" />
+        <img src={props.img} alt="" />
       </div>
       <div className="imf">
-        <p className="tittle">{medee.tittle}</p>
-        <h2>{medee.h2}</h2>
+        <p className="tittle">{props.tittle}</p>
+        <h2>{props.h2}</h2>
         <div className="name">
-          <p>{medee.name}</p>
-          <p>{medee.date}</p>
+          <p>{props.name}</p>
+          <p>{props.date}</p>
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ import Neww from "./components/News";
 import Reclam2 from "./components/Reclam2";
 import Cotegore from "./components/Cotegore";
 import HeroNews from "./components/HeroNews";
+import { Imf, Img } from "./components/Posts";
 
 const App = () => {
   return (
@@ -13,7 +14,14 @@ const App = () => {
       <Header1 />
       <div className="body">
         <Reclam1 />
-        <HeroNews />
+        <div className="hero-news">
+          <HeroNews />
+          <div className="posts">
+            <Img />
+            <Imf />
+          </div>
+        </div>
+
         <div className="news">
           <Neww />
           <Reclam2 />

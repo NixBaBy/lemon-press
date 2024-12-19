@@ -1,0 +1,22 @@
+.postsImf {
+  width: 394px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.postsImf h2 {
+  font-size: 15px;
+}
+.posts-img {
+  width: 394px;
+  height: 250px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  overflow: hidden;
+}
+.posts-img img {
+  width: 100%;
+  height: 100%;
+}
